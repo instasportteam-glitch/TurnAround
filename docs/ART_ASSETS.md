@@ -1,0 +1,22 @@
+Art assets v2 — 29 September 2026
+
+Generated with the built-in imagegen tool. Reference: assets/concepts/turnaround-concept-v1.png. These are separate image layers, not a flattened gameplay screenshot. Aircraft and fleet retain alpha transparency. Atlas cells are sampled at runtime; source files are unmodified.
+
+Files:
+- assets/images/apron.png
+- assets/images/airliner.png
+- assets/images/vehicles.png
+
+Exact generation prompts:
+
+## apron
+
+Use case: stylized-concept. Asset type: background plate for a real 2.5D mobile airport game. Create an extremely detailed premium semi-realistic 3D rendered nighttime airport apron, portrait 3:4 composition. The reference image is ONLY the art direction reference: match its expensive realistic materials, cobalt/violet midnight ambience, wet asphalt reflections and warm terminal interiors. NO UI, NO text, NO airplanes, NO vehicles. Fixed elevated three-quarter isometric camera, looking across apron toward terminal on upper left, no perspective horizon. Glass terminal occupies leftmost 24 percent and topmost 18 percent, glass curtain walls, warm lit interiors, structural steel, vents and roofs, tiny interior silhouettes. Two short retracted jet bridges extend a little from left edge at 32 percent and 65 percent height, not across the apron. Right 75 percent of image and bottom 25 percent are mostly open richly textured dark blue wet apron pavement, with concrete seams, small realistic reflections and violet spill light. Leave entire rightmost 15 percent and bottommost 15 percent free of obstacles for service roads which will be drawn by game engine. No painted parking outlines or service road lines, no words, no signs, no aircraft shadows baked in. Detail and sophistication like a high end airport management game's pre-rendered environment, NOT low-poly, NOT cartoon, NOT flat vector. Functional original game background, no poster layout.
+
+## aircraft
+
+Use case: stylized-concept. Asset type: transparent PNG individual aircraft sprite for 2.5D airport game. Reference is art style only. One entire realistic narrowbody twin engine civilian passenger airliner, white pearl fuselage, indigo and violet tail with original sweeping geometric livery, viewed from elevated three-quarter isometric camera about 40 degrees above ground. Nose points to lower LEFT, tail points upper RIGHT, length axis diagonal bottom-left to top-right. Match foreground airliner in reference aesthetic. Entire aircraft isolated on TRUE TRANSPARENT background, generous 5 percent clear padding, no ground plane, no environment, no text, no UI, no vehicles, no jet bridge, no people. Aircraft horizontal wings spread fully, realistic two underwing turbofan nacelles with visible black fan blades, landing gear wheels down, small cockpit windows, neat cabin windows, detailed doors and panel seams, subtle violet rim illumination, cool white airport floodlight from upper left, delicate warm bounce light. Physically plausible fine detail and clean silhouette. High-end 3D render, not simplified, not icon. Landscape 3:2 canvas. No baked cast ground shadow. Alpha transparency essential.
+
+## vehicles
+
+Use case: stylized-concept. Asset type: sprite atlas on TRUE TRANSPARENT background for detailed pseudo-3D airport game. Reference is style and lighting only. Canvas square, an EXACT regular 4 columns x 5 rows grid, each cell equal size, exactly ONE vehicle fully contained with 15 percent transparent padding in each cell; NO lines separating cells, NO labels, NO ground or environment. 20 isolated photorealistic 3D rendered miniatures. Elevated camera 40 degrees above ground, consistent lighting cool blue/violet ambient plus warm beacon, realistic white and violet airport livery. Each row same vehicle from 4 orientations: column 1 front points lower LEFT, column 2 front points lower RIGHT, column 3 front points upper RIGHT, column 4 front points upper LEFT. Row 1: airport baggage tractor pulling one small violet baggage cart. Row 2: white aviation fuel tanker truck with rounded silver tank and violet stripe. Row 3: white compact cabin cleaning service van. Row 4: white catering box lift truck, lift lowered while driving. Row 5: short heavy low white aircraft pushback tug. High detail: black tires, glass cabin windshields, mirrors, distinct vehicle silhouettes, orange warning beacons. All vehicles same camera scale inside uniform equal cells. EXACT 4x5 aligned grid, transparent gutters and transparent background. No text, numbers, branding or logos. Not flat illustration, not toy block low poly.
