@@ -37,6 +37,7 @@ dependencies:
   flame: ^1.30.1
   shared_preferences: 2.5.3
   image_picker: 1.1.2
+  foldable: ^1.0.5
   flutter_localizations:
     sdk: flutter
 
